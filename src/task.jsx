@@ -4,24 +4,24 @@ import {Draggable} from 'react-beautiful-dnd';
 
 const Container = styled.div`
 border: 3px solid lightgrey;
-border-radius: 50%;
+border-radius: 5px;
 padding: 8px;
 margin-bottom: 8px;
 background-color: ${props=> (
   props.isDragDisabled ? 'lightgrey' :
   props.isDragging ? 'lightgreen' : 'white')
 };
-width: 40px;
-height: 40px;
+// width: 40px;
+// height: 40px;
 
-display: flex;
-justify-content: center;
-align-items: center;
+// display: flex;
+// justify-content: center;
+// align-items: center;
 
-&:focus {
-  outline: none;
-  border-color: red;
-}
+// &:focus {
+//   outline: none;
+//   border-color: red;
+// }
 `;
 
 // const Handle = styled.div`
@@ -52,7 +52,7 @@ export default class Task extends React.Component {
           {/* <Handle
           
           /> */}
-            { this.props.task.content[0] }
+            { this.props.task.content }
           </Container>
         )}
       </Draggable>
