@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b76b1e96-6f22-4418-b9b7-50cee6f55568/deploy-status)](https://app.netlify.com/sites/classicmatsuo-react-task-app/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
